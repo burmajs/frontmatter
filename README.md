@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+    <img width="300" height="200" src="https://imagedelivery.net/6bSk6wUa9UOwEesJAZQuoA/fd130e46-3c41-4624-6d08-47d7dfb98900/public">
+</div>
+
 # Extract YAML data from a markdown file
 
 **API Docs : [![jsDocs.io](https://img.shields.io/badge/jsDocs.io-reference-blue)](https://www.jsdocs.io/package/@burmajs/frontmatter)**
