@@ -5,8 +5,7 @@
   "scripts": {
     "build": "tsup",
     "check": "biome check --write src",
-    "format": "biome format --write src",
-    "pub": "npm version patch && npm publish --access public"
+    "format": "biome format --write src"
   },
   "exports": {
     ".": {
@@ -35,7 +34,7 @@
     "@types/node": "^22.5.0",
     "js-yaml": "^4.1.0",
     "jsr": "^0.13.1",
-    "tsup": "^8.2.4",
+    "tsup": "^3.7.0",
     "tsx": "^4.17.0",
     "typescript": "^5.5.4"
   }
