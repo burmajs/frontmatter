@@ -1,7 +1,7 @@
 {
   "$schema": "./deno.schema.json",
   "name": "@burmajs/frontmatter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "exports": "./src/index.ts",
   "imports": {
     "js-yaml": "npm:js-yaml@^4.1.0",
