@@ -6,7 +6,7 @@
     "build": "tsup",
     "check": "biome check --write src",
     "format": "biome format --write src",
-    "pub": "pnpm version patch && pnpm publish"
+    "pub": "pnpm version patch && pnpm publish --access public"
   },
   "exports": {
     ".": {
