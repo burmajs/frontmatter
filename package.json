@@ -2,6 +2,7 @@
   "name": "@burmajs/frontmatter",
   "version": "0.4.0",
   "description": "Extract YAML data from a markdown file",
+  "type": "module",
   "scripts": {
     "build": "tsup",
     "check": "biome check --write src",
@@ -9,8 +10,8 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.mts",
-      "import": "./dist/index.mts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "repository": {
@@ -34,7 +35,7 @@
     "@types/node": "^22.5.0",
     "js-yaml": "^4.1.0",
     "jsr": "^0.13.1",
-    "tsup": "^3.7.0",
+    "tsup": "^8.2.4",
     "tsx": "^4.17.0",
     "typescript": "^5.5.4"
   }
