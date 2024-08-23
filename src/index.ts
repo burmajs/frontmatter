@@ -52,6 +52,7 @@ type FrontMatterResult<T> = {
  *
  * type MyType = {
  *   type: string;
+ *   title: string;
  * }
  * const mdcontent = fs.readFileSync("a.md", "utf-8");
  * const foo = new Frontmatter<MyType>(mdcontent);
