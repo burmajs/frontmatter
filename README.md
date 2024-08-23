@@ -1,2 +1,3 @@
-# frontmatter
-Extract  YAML data from a markdown file
+## @burmajs/frontmatter
+
+Extract YAML data from a markdown file
