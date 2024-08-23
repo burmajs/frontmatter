@@ -14,7 +14,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - name: Install package
-        run: pnpm install
+        run: npm install
+
       - name: Publish package
-        run: pnpm jsr publish
+        run: npm jsr publish
