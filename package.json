@@ -5,7 +5,14 @@
   "scripts": {
     "build": "tsup",
     "check": "biome check --write src",
-    "format": "biome format --write src"
+    "format": "biome format --write src",
+    "pub": "pnpm version patch && pnpm publish"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mts"
+    }
   },
   "repository": {
     "type": "git",
