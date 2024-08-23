@@ -1,8 +1,10 @@
 node_modules
 src
 biome.jsonc
-biome./schema.json
+biome.schema.json
 pnpm-lock.yaml
+deno.schema.json
+jsr.json
 tsconfig.json
 tsup.config.ts
 .gitignore
